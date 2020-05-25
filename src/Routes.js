@@ -11,6 +11,7 @@ import AssociatesNetwork from "./pages/Services/AssociatesNetwork";
 import AccountPayments from "./pages/Services/AccountPayments";
 import Services from "./pages/Services"
 import { Disinfection } from "./pages/Services/Disinfection";
+import Koinoxrista from "./pages/Services/Koinoxrista";
 
 function Routes() {
     return (
@@ -41,6 +42,9 @@ function Routes() {
         </Route>
         <Route exact path="/services/payment">
             <AccountPayments />
+        </Route>
+        <Route exact path="/services/koinoxrista">
+            <Koinoxrista />
         </Route>
         <Route exact path="/services/heatingoil">
             <HeatingOil />

@@ -20,7 +20,7 @@ function App() {
             <Nav className="mr-auto">
               <Nav.Link href="#features" as={NavLink} to="/aboutus">Εταιρεία</Nav.Link>
               <NavDropdown title="Υπηρεσίες" id="collasible-nav-dropdown" as={NavLink} to="/services">
-                <NavDropdown.Item  >Έκδοση κοινοχρήστων</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/services/koinoxrista" >Έκδοση κοινοχρήστων</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/services/buildingadmin">Διαχειρίσεις κτιρίων</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/services/cleaning">Καθαρισμοί</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/services/disinfection">Απολύμανση - Απεντόμωση - Μυοκτονία</NavDropdown.Item>
