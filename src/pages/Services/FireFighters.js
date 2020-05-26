@@ -6,12 +6,14 @@ import { FaFireExtinguisher} from 'react-icons/fa'
 
 function FireFighters() {
     return (
-        <div className="container well-xs well-sm-inset-1 bg-secondary-2">  
+        <div className="container well-xs well-sm-inset-1 " >  
         <br/>
-        <div className="container-fluid">
-                <div className="row">
+        <div >
+            <br/>
+            <br />
+                <div className="row"  >
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Πυροσβεστήρες</h2>
+                    <h2 style={{color:"#f4623a"}}>Πυροσβεστήρες</h2>
                     <p>
                         Στο ενδεχόμενο μιας πυρκαγιάς η διάσωση των ανθρώπινων ζωών αφενός και η ασφάλεια των κτιρίων αφετέρου, κρίνονται από την αμεσότητα λειτουργίας των πυροσβεστήρων. Εκ του νόμου επιβάλλεται η ύπαρξη των πυροσβεστήρων σε πολυκατοικίες και κτίρια.
                        </p>
@@ -34,10 +36,10 @@ function FireFighters() {
                 <div className="row">
                     <div className="col-sm-4">
                         <br />
-                        <FaFireExtinguisher size="150" style={{color:"#ff4d4f"}}/>
+                        <FaFireExtinguisher size="150" style={{color:"#f4623a"}}/>
                     </div>
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Συνήθεις Τύποι Πυροσβεστήρων </h2>
+                    <h2 style={{color:"#f4623a"}}>Συνήθεις Τύποι Πυροσβεστήρων </h2>
                     <p><i>Φορητοί πυροσβεστήρες ξηράς κόνεως 6 kg </i></p>
                     <p><i>Φορητοί πυροσβεστήρες ξηράς κόνεως 12 kg </i></p>    
                     <p><i>Πυροσβεστήρες οροφής 12 kg (λεβητοστασίου)</i></p>   
@@ -49,7 +51,7 @@ function FireFighters() {
                 </div>  
                 <p><strong>Ενημερωθείτε από τους έμπειρους τεχνικούς μας και με κριτήριο τις πραγματικές σας ανάγκες, θα λάβετε ολοκληρωμένες λύσεις στον ιδιαίτερα ευαίσθητο τομέα της πυρασφάλειας των κτιρίων.</strong></p>
 
-                <hr style={{border: '0' ,borderTop: '1px solid #ff4d4f'}}/>  
+                <hr style={{border: '0' ,borderTop: '1px solid #f4623a'}}/>  
                 <div className="slideanim">
             <ServicesBar />
                 </div>   

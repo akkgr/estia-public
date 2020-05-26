@@ -12,6 +12,7 @@ import AccountPayments from "./pages/Services/AccountPayments";
 import Services from "./pages/Services"
 import { Disinfection } from "./pages/Services/Disinfection";
 import Koinoxrista from "./pages/Services/Koinoxrista";
+import Tos from "./pages/Tos";
 
 function Routes() {
     return (
@@ -24,6 +25,9 @@ function Routes() {
         </Route>
         <Route exact path="/aboutus">
             <AboutUs />
+        </Route>
+        <Route exact path="/tos">
+            <Tos />
         </Route>
         <Route exact path="/services">
             <Services />

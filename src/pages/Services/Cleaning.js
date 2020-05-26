@@ -8,9 +8,11 @@ function Cleaning() {
     <div className="container well-xs well-sm-inset-1 bg-secondary-2">  
         <br/>
             <div className="container-fluid">
+            <br/>
+            <br />
                 <div className="row">
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Συνεργείο Καθαρισμού</h2>
+                    <h2 style={{color:"#f4623a"}}>Συνεργείο Καθαρισμού</h2>
                     <p>
                         Οι συνεργάτες της ΕΣΤΙΑ City Services, αναλαμβάνουν την καθαριότητα των κοινόχρηστων χώρων της πολυκατοικίας ή των επαγγελματικών χώρων σας.
                     </p>
@@ -30,7 +32,7 @@ function Cleaning() {
                 </div>
                 </div>
                 <br /><br />
-                <hr style={{border: '0' ,borderTop: '1px solid #ff4d4f'}}/> 
+                <hr style={{border: '0' ,borderTop: '1px solid #f4623a'}}/> 
                 <div className="slideanim">
             <ServicesBar />
                 </div> 

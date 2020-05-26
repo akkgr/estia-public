@@ -9,9 +9,11 @@ function Koinoxrista() {
         <div className="container well-xs well-sm-inset-1 bg-secondary-2">  
         <br/>
             <div className="container-fluid">
+            <br/>
+            <br />
                 <div className="row">
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Έκδοση Κοινοχρήστων</h2>
+                    <h2 style={{color:"#f4623a"}}>Έκδοση Κοινοχρήστων</h2>
                     <p>Το τμήμα μηχανογράφησης δημιούργησε ένα απλό αλλά παράλληλα πλήρες και αναλυτικό πρόγραμμα κοινοχρήστων που απαλλάσσει το διαχειριστή από κάθε πρόσθετη 
                         ενασχόληση, δίνοντας ταυτόχρονα σαφείς πληροφορίες στους ενοίκους σχετικά με τα κοινόχρηστα τους.
                      </p> 
@@ -26,7 +28,7 @@ function Koinoxrista() {
                     </div>
                     <div className="col-sm-4">
                         <br/>
-                    <GoChecklist size="150" style={{color:"#ff4d4f"}}/>
+                    <GoChecklist size="150" style={{color:"#f4623a"}}/>
                     </div>
                 </div>
                 <p><strong><i>Η ΕΣΤΙΑ - City services διαθέτει ειδικό τμήμα με εξειδικευμένο προσωπικό για την άμεση υποστήριξη των δικών σας αναγκών.
@@ -37,10 +39,10 @@ function Koinoxrista() {
                 <div className="row">
                     <div className="col-sm-4">
                         <br />
-                        <BsListCheck size="150" style={{color:"#ff4d4f"}}/>
+                        <BsListCheck size="150" style={{color:"#f4623a"}}/>
                     </div>
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Απαραίτητα στοιχεία για την έκδοση κοινοχρήστων</h2>
+                    <h2 style={{color:"#f4623a"}}>Απαραίτητα στοιχεία για την έκδοση κοινοχρήστων</h2>
                     <p><i>Πίνακας χιλιοστών μηχανικού για την κατανομή των κοινοχρήστων (Δήλωση από διαχειριστή σε περίπτωση που δεν υπάρχει)</i></p>
                     <p><i>Μηχανολογική μελέτη θέρμανσης (ωρομέτρηση)</i></p>
                     <p><i>Ονοματεπώνυμα ιδιοκτητών ενοικιαστών</i></p>
@@ -49,7 +51,7 @@ function Koinoxrista() {
                     </div>
                     </div>
                 </div> 
-                <hr style={{border: '0' ,borderTop: '1px solid #ff4d4f'}}/>  
+                <hr style={{border: '0' ,borderTop: '1px solid #f4623a'}}/>  
                 <div className="slideanim">
             <ServicesBar />
                 </div>   

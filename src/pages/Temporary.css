@@ -1,13 +1,13 @@
-.slideanim {
+/* .slideanim {
     visibility:hidden;
-    visibility:visible\9;/*For old IE browsers IE6-8 */
+    visibility:visible\9;
   }
   .slideanim.slide {                  
     visibility: visible;                  
     animation: slide 1s;
   }
   .slideanim::after {
-    /* useful when its child elements are float:left; */
+   
     content: "";
     display: table;
     clear: both;
@@ -21,4 +21,34 @@
         opacity: 1;
         transform: translateY(0);
     } 
-  }
+  } */
+
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 1rem); 
+    background-image: url("../layout//photos/main_wallpapers.jpg");
+     /* background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    @include media-breakpoint-up(lg) {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: $navbar-height;
+        padding-bottom: 0;
+        p {
+            font-size: 1.15rem;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    @include media-breakpoint-up(xl) {
+        h1 {
+            font-size: 3.5rem;
+        }
+    }
+}

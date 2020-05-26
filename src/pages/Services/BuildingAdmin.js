@@ -8,9 +8,11 @@ function BuildingAdmin() {
         <div className="container well-xs well-sm-inset-1 bg-secondary-2">  
         <br/>
             <div className="container-fluid">
+            <br/>
+            <br />
                 <div className="row">
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Διαχειρίσεις Πολυκατοικιών - Κτιρίων</h2>
+                    <h2 style={{color:"#f4623a"}}>Διαχειρίσεις Πολυκατοικιών - Κτιρίων</h2>
                     <p>
                         Η ΕΣΤΙΑ City Services , αναλαμβάνει με υπευθυνότητα και επαγγελματική συνέπεια τη διαχείριση της πολυκατοικίας σας και σας απαλλάσσει από οποιαδήποτε ταλαιπωρία που αφορά στους κοινόχρηστους χώρους.                    </p>
                     <p>
@@ -21,7 +23,7 @@ function BuildingAdmin() {
                     </div>
                     <div className="col-sm-4">
                         <br/>
-                        <FaRegBuilding size="150" style={{color:"#ff4d4f"}}/>
+                        <FaRegBuilding size="150" style={{color:"#f4623a"}}/>
 
                     </div>
                 </div>
@@ -41,9 +43,9 @@ function BuildingAdmin() {
                 <br /><br/>
                 <p>Αν δεν υπάρχει στην πολυκατοικία σας διαθέσιμος διαχειριστής, το έμπειρο προσωπικό μας βρίσκεται εδώ για να σας εξυπηρετήσει και να σας βάλει στην οικογένεια μας. Βρισκόμαστε δίπλα σας και σας παρέχουμε τις υπηρεσίες μας με αξιοπιστία, ποιότητα & οικονομία.</p>
                 <br />
-                <p style={{color:"#ff4d4f"}}><strong>Σας περιμένουμε για να χτίσουμε μία σχέση εμπιστοσύνης.</strong></p>
+                <p style={{color:"#f4623a"}}><strong>Σας περιμένουμε για να χτίσουμε μία σχέση εμπιστοσύνης.</strong></p>
                 <br/><br />
-                <hr style={{border: '0' ,borderTop: '1px solid #ff4d4f'}}/> 
+                <hr style={{border: '0' ,borderTop: '1px solid #f4623a'}}/> 
                 <div className="slideanim">
                     <ServicesBar />
                 </div> 

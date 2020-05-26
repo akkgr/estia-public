@@ -12,9 +12,12 @@ function AboutUs() {
         <div >
            
         <div className="container well-xs well-sm-inset-1">
+        <br />
+        <br/>
             <div className="row flow-offset-1 txtalign">
                 <div className="col-md-6 col-sm-6 txtalign ppading ">
-                    <h2 style={{color:"#ff4d4f"}}>Σχετικά με εμάς</h2>
+                    <h2 style={{color:"#f4623a"}}>Σχετικά με εμάς</h2>
+                    <hr className="divider my-4" />
                     <p >
                         Με εμπειρία πάνω από 30 χρόνια η ΕΣΤΙΑ CITY SERVICES πρωτοπορεί με τις υπηρεσίες της και τον επαγγελματισμό της. Διαθέτει ιδιόκτητες εγκαταστάσεις στον Βύρωνα και απασχολεί το πλέον έμπειρο προσωπικό που είναι καθημερινά δίπλα στους πελάτες για να εξυπηρετεί και να δίνει λύσεις σε κάθε τους πρόβλημα.
                     </p>
@@ -42,28 +45,28 @@ function AboutUs() {
                     </p>
                 </div>
                 <div className="col-md-6 col-sm-6 ">
-                    <h2 style={{color:"#ff4d4f"}}>Τα πλεονεκτήματα μας</h2>
-                    <p> <br /> </p>
+                    <h2 style={{color:"#f4623a"}}>Τα πλεονεκτήματα μας</h2>
+                    <hr className="divider my-4" />
                     <ol className="index-list avantage">
                         <li>
-                            <h5 style={{color:"#ff4d4f"}}>Εξελισσομενο Μηχανογραφικο Συστημα </h5>
+                            <h5 style={{color:"#f4623a"}}>Εξελισσομενο Μηχανογραφικο Συστημα </h5>
                             <p>
                                 Διαθέτουμε το πλέον εκσυγχρονισμένο μηχανογραφικό σύστημα, που εξελίσσεται συνεχώς, με σκοπό να καλύπτει κάθε παλιά αλλά και νέας σας ανάγκη.  Βασικό μας στόχο αποτελούν η εύκολη ενημέρωση των πελατών μας, αλλά και η άμεση εξυπηρέτηση τους.
                             </p>
                         </li>
                         <li>
-                            <h5 style={{color:"#ff4d4f"}}>Δυνατοτητα Ηλεκτρονικης Εξυπηρετησης </h5><p>
+                            <h5 style={{color:"#f4623a"}}>Δυνατοτητα Ηλεκτρονικης Εξυπηρετησης </h5><p>
                                 Η χρήση του διαδικτύου έχει επικρατήσει στην καθημερινότητα μας αλλά και στις υπηρεσίες. Όχι, άδικα αφού πλέον μπορείτε εύκολα και άμεσα να ενημερώνεστε, να προγραμματίζεστε αλλά και να πληρώνετε εύκολα και γρήγορα, χρησιμοποιώντας το site μας.
                                 <br />Η Ομάδα μας αποτελείται από αξιόλογους ανθρώπους, έμπειρους στο αντικείμενο τους και συνεχώς εκπαιδευόμενους. Για την καλύτερη εξυπηρέτηση σας στις σύγχρονες ανάγκες η συνεχής κατάρτιση του προσωπικού μας θεωρείται απαραίτητη.
                             </p>
                         </li>
                         <li>
-                            <h5 style={{color:"#ff4d4f"}}>Αξιοπιστοι Συνεργατες</h5><p>
+                            <h5 style={{color:"#f4623a"}}>Αξιοπιστοι Συνεργατες</h5><p>
                                 Μία προσεχτικά επιλεγμένη ομάδα εξειδικευμένων τεχνιτών - συνεργατών, βρίσκεται δίπλα σας να σας εξυπηρετήσει σε κάθε τεχνικό πρόβλημα που αφορά στην πολυκατοικία σας ή στον επαγγελματικό σας χώρο.
                             </p>
                         </li>
                         <li>
-                            <h5 style={{color:"#ff4d4f"}}>Ιδιοκτητες Εγκαταστασεις </h5><p>
+                            <h5 style={{color:"#f4623a"}}>Ιδιοκτητες Εγκαταστασεις </h5><p>
                                 Για να γνωριστούμε και από κοντά μπορείτε να μας επισκεφτείτε στις ιδιόκτητες εγκαταστάσεις μας στον Βύρωνα, Ν. Αρώνη 34. Βρισκόμαστε δίπλα σας  και σας παρέχουμε τις υπηρεσίες μας με αξιοπιστία, ποιότητα & οικονομία. Θα χαρούμε να σας υποδεχτούμε στα γραφεία μας για να γνωριστούμε από κοντά.
                             </p>
                         </li>
@@ -76,10 +79,11 @@ function AboutUs() {
 
 
         <div className="container well-sm ">
-            <h2 style={{color:"#ff4d4f"}}>Η ομάδα μας</h2>
+            <h2 style={{color:"#f4623a"}}>Η ομάδα μας</h2>
+            <hr className="divider my-4" />
             <div className="row flow-offset-1 text-xs-center slideanim">
                 <div className="col-md-3 col-xs-6">
-                    <img src={Photo1} alt="Vassiliki Pantzia"/>
+                    <img src={Photo1} alt="Vassiliki Pantzia" style={{borderRadius: '50%'}}/>
                     <div className="box-skin-1 " >
                         <h5>ΠΑΝΤΖΙΑ Β. ΒΑΣΙΛΙΚΗ </h5>
                         <p>Manager & Σύμβουλος Διαχειρίσεων</p>
@@ -89,7 +93,7 @@ function AboutUs() {
                 </div>
                 
                 <div className="col-md-3 col-xs-6">
-                    <img src={Photo2} alt="Ioanna Kanta"/>
+                    <img src={Photo2} alt="Ioanna Kanta" style={{borderRadius: '50%'}}/>
                     <div className="box-skin-1 ">
                         <h5>ΚΑΝΤΑ Ο. ΙΩΑΝΝΑ</h5>
                         <p>Σύμβουλος Διαχειρίσεων & Τεχνική Υποστήριξη</p>
@@ -97,7 +101,7 @@ function AboutUs() {
                     </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
-                    <img src={Photo3} alt="Giorgos Tsilis"/>
+                    <img src={Photo3} alt="Giorgos Tsilis" style={{borderRadius: '50%'}}/>
                     <div className="box-skin-1" >
                         <h5>ΤΣΙΛΗΣ ΓΙΩΡΓΟΣ</h5>
                         <p>Σύμβουλος Διαχειρίσεων & Υπεύθυνος Επιστήμονας Απολυμάνσεων</p>
@@ -105,7 +109,7 @@ function AboutUs() {
                     </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
-                    <img src={Photo4} alt="Kostas Vournas"/>
+                    <img src={Photo4} alt="Kostas Vournas" style={{borderRadius: '50%'}}/>
                     <div className="box-skin-1">
                         <h5>ΒΟΥΡΝΑΣ ΚΩΣΤΑΣ</h5>
                         <p>Επόπτης Κτιρίων  & Διανομέας - Εισπράκτορας</p>
@@ -113,22 +117,22 @@ function AboutUs() {
                 </div>
             </div>
             <div className="row flow-offset-1 text-xs-center slideanim">
-                <div className="col-md-3 col-xs-6">
-                    <img src={Photo5} alt="Argiris Nikolaou"/>
+                <div className="col-md-4 col-xs-6">
+                    <img src={Photo5} alt="Argiris Nikolaou" style={{borderRadius: '50%'}}/>
                     <div className="box-skin-1 ">
                         <h5>ΝΙΚΟΛΑΟΥ ΑΡΓΥΡΗΣ</h5>
                         <p>Επόπτης Κτιρίων  & Διανομέας – Εισπράκτορας</p>
                     </div>
                 </div>
-                <div className="col-md-3 col-xs-6">
-                    <img src={Photo6} alt="Xristos Fourtounis"/>
+                <div className="col-md-4 col-xs-6">
+                    <img src={Photo6} alt="Xristos Fourtounis" style={{borderRadius: '50%'}}/>
                     <div className="box-skin-1">
                         <h5>ΦΟΥΡΤΟΥΝΗΣ ΧΡΗΣΤΟΣ</h5>
                         <p>Διανομέας – Εισπράκτορας & Απολυμαντής</p>
                     </div>
                 </div>
-                <div className="col-md-3 col-xs-6">
-                    <img src={Photo7} alt="Giannis Pantzias"/>
+                <div className="col-md-4 col-xs-6">
+                    <img src={Photo7} alt="Giannis Pantzias" style={{borderRadius: '50%'}}/>
                     <div className="box-skin-1 ">
                         <h5>ΠΑΝΤΖΙΑΣ Β. ΓΙΑΝΝΗΣ</h5>
                         <p>Υπεύθυνος Καθαριοτήτων</p>

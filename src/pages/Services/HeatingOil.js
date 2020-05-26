@@ -8,9 +8,11 @@ function HeatingOil() {
         <div className="container well-xs well-sm-inset-1 bg-secondary-2">  
         <br/>
             <div className="container-fluid">
+            <br/>
+            <br />
                 <div className="row">
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Πετρέλαιο Θέρμανσης – Καθαρισμοί Δεξαμενών</h2>
+                    <h2 style={{color:"#f4623a"}}>Πετρέλαιο Θέρμανσης – Καθαρισμοί Δεξαμενών</h2>
                     <p>
                         Οι συνεργάτες της ΕΣΤΙΑ City Services, είναι δίπλας σας και συνεχίζουν να σας προσφέρουν υπηρεσίες ευρωπαϊκών προδιαγραφών. Προτεραιότητα μας είναι η σωστή παράδοση του πετρελαίου στις  πιο  ανταγωνιστικές οι τιμές της αγοράς.
                     </p>
@@ -24,7 +26,7 @@ function HeatingOil() {
                     </div>
                     <div className="col-sm-4">
                         <br/>
-                    <FaGasPump size="150" style={{color:"#ff4d4f"}}/>
+                    <FaGasPump size="150" style={{color:"#f4623a"}}/>
                     </div>
                 </div>
                 <p><strong><i>Ξεχάστε για πάντα το άγχος της παραλαβής των καυσίμων και τη μεγάλη αναμονή για την παραλαβή της παραγγελίας σας. Το κύριο μέλημα μας είναι η ικανοποίηση του πελάτη και για αυτό μας εμπιστεύεστε όλα αυτά τα χρόνια.
@@ -37,10 +39,10 @@ function HeatingOil() {
                 <div className="row">
                     <div className="col-sm-4">
                         <br />
-                        <AiOutlineClear size="150" style={{color:"#ff4d4f"}}/>
+                        <AiOutlineClear size="150" style={{color:"#f4623a"}}/>
                     </div>
                     <div className="col-sm-8">
-                    <h2 style={{color:"#ff4d4f"}}>Καθαρισμοί δεξαμενών</h2>
+                    <h2 style={{color:"#f4623a"}}>Καθαρισμοί δεξαμενών</h2>
                     <p>Το πετρέλαιο ως γνωστόν αφήνει πολλά κατάλοιπα με αποτέλεσμα να δημιουργούν κακή λειτουργία του καυστήρα. Ο καθαρισμός της δεξαμενής του πετρελαίου είναι απαραίτητος να γίνεται τουλάχιστον κάθε 2 χρόνια.</p>
                     <p>
                         Η σωστή συντήρηση της δεξαμενής συμβάλει στην καλύτερη λειτουργία του καυστήρα, την επιμήκυνση του χρόνου ζωής του μηχανήματος αλλά και την αποφυγή προβλημάτων.
@@ -52,7 +54,7 @@ function HeatingOil() {
                     </div>
                     </div>
                 </div> 
-                <hr style={{border: '0' ,borderTop: '1px solid #ff4d4f'}}/>  
+                <hr style={{border: '0' ,borderTop: '1px solid #f4623a'}}/>  
                 <div className="slideanim">
             <ServicesBar />
                 </div>   
