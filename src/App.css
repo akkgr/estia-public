@@ -3,7 +3,7 @@
   background-color:  aliceblue ;
 }
 
-
+// eslint-disable-next-line
 @import './scss/styles.scss' 
 .App-logo {
   height: 40vmin;

@@ -1,6 +1,5 @@
 import React from "react"
 import { ServicesBar } from "../../components/ServicesBar"
-import webBanking from '../../layout/photos/webBanking.jpg'
 import {GoChecklist} from 'react-icons/go' 
 import {BsListCheck} from 'react-icons/bs'
 

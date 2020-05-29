@@ -5,20 +5,39 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script
-  src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-  crossorigin></script>
-<!-- <script src="float-panel.js"></script> -->
-<script
-  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-  crossorigin></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <meta
+    <script
+      src="https://unpkg.com/react/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <!-- <script src="float-panel.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <meta
       name="description"
       content="Web site created using create-react-app"
     />
@@ -53,40 +72,43 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      $(document).ready(function(){
+      $(document).ready(function () {
         // Add smooth scrolling to all links in navbar + footer link
-        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+        $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
           // Make sure this.hash has a value before overriding default behavior
           if (this.hash !== "") {
             // Prevent default anchor click behavior
             event.preventDefault();
-      
+
             // Store hash
             var hash = this.hash;
-      
+
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 900, function(){
-         
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            });
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              900,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
           } // End if
         });
-        
-        $(window).scroll(function() {
-          $(".slideanim").each(function(){
+
+        $(window).scroll(function () {
+          $(".slideanim").each(function () {
             var pos = $(this).offset().top;
-      
+
             var winTop = $(window).scrollTop();
-              if (pos < winTop + 600) {
-                $(this).addClass("slide");
-              }
+            if (pos < winTop + 600) {
+              $(this).addClass("slide");
+            }
           });
         });
-      })
-      </script>
+      });
+    </script>
   </body>
 </html>
